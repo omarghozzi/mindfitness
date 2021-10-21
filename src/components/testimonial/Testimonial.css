@@ -1,0 +1,30 @@
+.testimonial {
+  width: 370px;
+  height: 463px;
+  background-color: white;
+  padding: 38px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 26px;
+}
+
+.testimonial p {
+  color: #7a839e;
+  font-size: 16px;
+  font-family: "poppin", sans-serif;
+  font-weight: 300;
+}
+
+.testimonial h3 {
+  color: #42495b;
+  font-size: 20px;
+  font-family: "poppin", sans-serif;
+}
+
+.testimonial .img {
+  width: 114px;
+  height: 114px;
+  clip-path: circle();
+}

@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.header img {
+  transform: translateX(-120%);
+}
+.header ul {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  font-family: "Poppins", sans-serif;
+}
+
+.header ul li {
+  list-style: none;
+  text-transform: uppercase;
+  color: white;
+  cursor: pointer;
+}
+
+.header li:hover {
+  border-bottom: 1px solid white;
+}

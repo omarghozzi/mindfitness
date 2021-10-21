@@ -1,0 +1,37 @@
+.whoWeAre {
+  margin-top: 156px;
+  background-image: url("../../assets/Grille\ de\ répétition\ 2.svg");
+}
+.whoWeAre > .container {
+  display: flex;
+}
+.whoWeAre > .container > div {
+  flex: 1;
+  position: relative;
+  padding-left: 20px;
+}
+
+.whoWeAre > .container > div > span {
+  font-size: 20px;
+  font-family: "Lobster", cursive;
+  color: #7e76f9;
+}
+
+.whoWeAre h3 {
+  font-size: 50px;
+  margin: 12px 0;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.whoWeAre > .container > div > p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #7a839e;
+  font-weight: 300;
+}
+
+.whoWeAre .button {
+  position: absolute;
+  bottom: 0;
+}

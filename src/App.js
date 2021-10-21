@@ -1,23 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Header from "./components/header/Header";
+import illustration from "./assets/undraw_Online_learning_re_qw08.svg";
+import Button from "./components/buttons/Button";
+import OurTeam from "./components/ourteam/OurTeam";
+import WhoWeAre from "./components/whoWeAre/WhoWeAre";
+import OurServices from "./components/ourServices/OurServices";
+import Testimonials from "./components/testimonials/Testimonials";
+import Newsletter from "./components/newsletter/Newsletter";
+import Footer from "./components/footer/Footer";
+import Social from "./components/social/Social";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <div className="firstpart">
+        <div className="container">
+          <Header />
+          <div className="firstpart__content">
+            <Social />
+            <div>
+              <h1>learn without limits</h1>
+              <p>
+                Maecenas sed dolor lorem. Maecenas quis congue turpis. Proin a
+                ipsum dictum.
+              </p>
+              <Button text="start your training" />
+            </div>
+            <img src={illustration} alt="ullustration" />
+          </div>
+        </div>
+      </div>
+      <div className="container">
+        <OurTeam />
+      </div>
+      <WhoWeAre />
+      <OurServices />
+      <Testimonials />
+      <div className="container">
+        <Newsletter />
+      </div>
+      <Footer />
     </div>
   );
 }

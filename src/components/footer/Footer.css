@@ -1,0 +1,53 @@
+.footer {
+  margin-top: 100px;
+  height: 570px;
+  background-image: url("../../assets/waves2.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  color: white;
+  padding-bottom: 50px;
+}
+
+.footer .container {
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.footer__content {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.footer__content > div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__content > div h3 {
+  margin-bottom: 32px;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.footer__content > div > div {
+  margin: 10px 0;
+  display: flex;
+  gap: 30px;
+}
+
+.footer__content ul li,
+.footer__content > div > p {
+  list-style: none;
+  margin: 10px 0;
+}
+
+.footer__content > * {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}

@@ -1,0 +1,45 @@
+.testimonials {
+  background-color: #8138c523;
+
+  padding: 35px 0;
+  text-align: center;
+}
+
+.testimonials span {
+  font-size: 20px;
+  font-family: "Lobster", cursive;
+  color: #7e76f9;
+}
+
+.testimonials h2 {
+  font-size: 50px;
+  margin: 12px 0;
+  margin-bottom: 96px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.testimonials .testimonials__reviews,
+.dots {
+  display: flex;
+  gap: 20px;
+}
+
+.dots {
+  margin-top: 90px !important;
+  width: fit-content;
+  margin: auto;
+  align-items: center;
+}
+
+.dot {
+  height: 6px;
+  aspect-ratio: 1/1;
+  border: 1px solid #7e76f9;
+}
+
+.dot:nth-last-of-type(1) {
+  height: 14px;
+  background-color: #7e76f9;
+  clip-path: circle();
+}

@@ -1,0 +1,12 @@
+.social {
+  position: absolute;
+  left: -100px;
+  gap: 20px;
+}
+
+.social img {
+  cursor: pointer;
+}
+.social img:last-of-type {
+  height: 30px;
+}

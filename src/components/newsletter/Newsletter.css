@@ -1,0 +1,48 @@
+.newsletter {
+  margin-top: 94px;
+  text-align: center;
+}
+
+.newsletter span {
+  font-size: 20px;
+  font-family: "Lobster", cursive;
+  color: #7e76f9;
+}
+
+.newsletter h2 {
+  font-size: 50px;
+  margin: 12px 0;
+  margin-bottom: 96px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.newsletter .input {
+  display: flex;
+  gap: 26px;
+}
+
+.input input {
+  width: 430px;
+  height: 52px;
+  outline: none;
+  border: none;
+  background-color: #f6f7fb;
+  border-radius: 4px;
+  padding-left: 30px;
+}
+
+.input ::placeholder {
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  color: #999999;
+}
+
+.newsletter form {
+  display: grid;
+  place-items: center;
+}
+
+.input .button {
+  background-color: #7e76f9 !important;
+}
