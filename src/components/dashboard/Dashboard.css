@@ -1,0 +1,93 @@
+.dashboard {
+  width: 100vw;
+  height: 100vh;
+  background-color: #112e40;
+  font-family: "Poppins", sans-serif;
+}
+
+.dashboard .dashboardHeader {
+  background-color: white;
+  padding: 10px 0;
+}
+ul,
+.dashboard .dashboardHeader > .container {
+  display: flex;
+  align-items: center;
+}
+.dashboard .dashboardHeader > .container {
+  justify-content: space-between;
+}
+.dashboard .dashboardHeader img {
+  height: 70px;
+  object-fit: contain;
+}
+
+ul {
+  gap: 20px;
+}
+li {
+  list-style: none;
+  color: #112e40;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.dashboard li:last-of-type {
+  padding-left: 10px;
+}
+
+.dashboard > .container {
+  margin-top: 20px;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.dashboard table {
+  width: 100%;
+  padding-left: 50px;
+}
+
+.dashboard table thead {
+  text-align: left;
+}
+
+td .icon:first-of-type {
+  margin-right: 5px;
+}
+
+tr {
+  height: 60px;
+}
+td,
+th {
+  border-bottom: 1px solid;
+  border-color: #112e40;
+  color: #112e40;
+}
+
+.dashboard h1 {
+  color: #112e40;
+  margin-bottom: 20px;
+}
+
+.dashboard .ajouter__formation {
+  padding: 20px;
+}
+
+.ajouter__formation .input__section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  margin: 30px 0;
+}
+
+.ajouter__formation .input__section > div {
+  width: 100%;
+}
+
+.dashboard .ajouter__formation .button {
+  width: 100%;
+  text-align: center;
+  border-radius: 5px;
+}
